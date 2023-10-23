@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+﻿#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <string.h>
@@ -25,7 +25,7 @@ int addToEndOfTheList(Position head) {
 
 	if (newPerson) {
 		last = findLast(head);				//nemoj zaminit ove dvi linije koda bi stvoria loop
-		newPerson->next = newPerson;		// u kojem element ima pokaziva? na samog sebe
+		newPerson->next = newPerson;		// u kojem element ima pokazivač na samog sebe
 	}
 
 	return EXIT_SUCCESS;
@@ -56,7 +56,7 @@ int menu(Position head) {
 	Position person = NULL;
 	while (1) {
 		printf("Enter A(Add to the front of the list), )");
-		scanf�(% c, c);
+		scanf°(% c, c);
 	}
 
 
