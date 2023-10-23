@@ -1,4 +1,4 @@
-﻿/*. Napisati program koji prvo pročita koliko redaka ima datoteka, tj. koliko ima studenata
+﻿/*. apisati program koji prvo pročita koliko redaka ima datoteka, tj. koliko ima studenata
 zapisanih u datoteci. Nakon toga potrebno je dinamički alocirati prostor za niz struktura
 studenata (ime, prezime, bodovi) i učitati iz datoteke sve zapise. Na ekran ispisati ime,
 prezime, apsolutni i relativni broj bodova.
